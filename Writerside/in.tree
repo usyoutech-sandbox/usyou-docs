@@ -4,10 +4,17 @@
 
 <instance-profile id="in"
                  name="Instance Name"
-                 start-page="starter.md">
-
-    <toc-element topic="starter.md">
-        <toc-element topic="Starter-Child.md"/>
+                 start-page="Introduction.md">
+    <toc-element topic="Introduction.md"/>
+    <toc-element topic="Overview.md"/>
+    <toc-element topic="Naming-Conventions.md">
+        <toc-element topic="Variables-And-Methods.md"/>
+        <toc-element topic="Folders.md"/>
     </toc-element>
-    <toc-element topic="1.md"/>
+    <toc-element topic="Docs.md">
+        <toc-element topic="Project-Docs.md"/>
+        <toc-element topic="API-Docs.md"/>
+    </toc-element>
+    <toc-element topic="Chat.md"/>
+    <toc-element topic="Workflow.md"/>
 </instance-profile>
