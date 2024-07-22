@@ -1,0 +1,3 @@
+# VariableAndMethod
+
+Start typing here...
